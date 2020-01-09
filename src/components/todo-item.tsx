@@ -30,4 +30,4 @@ const TodoItem = (props: TodoItemInterface) => {
     )
 }
 
-export default TodoItem;
+export default TodoItem
