@@ -54,6 +54,7 @@ function handleTodoCreate(todo: TodoInterface) {
 
    return (
        <div className = 'todo-list-app'>
+         <p id='welcome'>What's On Your Agenda Today?</p>
         <TodoForm
          todos={todos}
          handleTodoCreate={handleTodoCreate}

@@ -34,7 +34,7 @@ function handleInputEnter (event: React.KeyboardEvent) {
       <input 
        ref={inputRef}
        type='text'
-       placeholder='Enter new todo'
+       placeholder='Type New Todo & Press Enter'
        onChange={event => handleInputChange(event)}
        onKeyPress={event => handleInputEnter(event)}
        />
